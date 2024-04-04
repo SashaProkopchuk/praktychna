@@ -1,0 +1,31 @@
+from tkinter import *
+
+window = Tk()
+window.title("візитка студента ВПФК")
+window.geometry("800x600")
+l1 = Label(
+    text = "Прокопчук",
+    font = ("Comic Sans",25,"bold italic underline"),     
+    bg = 'white',
+    fg = 'black')
+l1.pack()
+l2=Label(
+    text = "Олександр",
+    font = ("Times New Roman",25,"bold italic underline"),     
+    bg = 'white',
+    fg = 'green')
+l2.pack()
+l3=Label(
+    text = "Іванович",
+    font = ("Arial",25,"bold italic underline"),     
+    bg = 'white',
+    fg = "blue")
+l3.pack()
+l4=Label(
+    text = "3-Ц",
+    font = ("Arial",10,"bold italic underline"),     
+    bg = 'blue',
+    fg = "white")
+l4.pack()
+foto=PhotoImage(file="3.png")
+Label(image=foto).pack()
